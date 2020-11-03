@@ -1,0 +1,20 @@
+Principios de Redux
+
+
+1. Todo el estado de la aplicación se representará mediante un objeto JavaScript. Esto también se conoce como el árbol de estado de Javascript.
+
+
+
+2. El árbol de estado es de solo lectura. Esto significa que nunca manipularemos directamente los valores de nuestro árbol de estado. El estado será actualizado / cambiado por acciones enviadas (discutiremos esto pronto).
+
+
+
+3 La función reductora. Dentro de una aplicación redux hay una función particular que toma el estado anterior y la acción que se distribuye, y devuelve el siguiente estado de la aplicación.
+
+
+
+Redux Piezas:
+
+1.- Actions : Que vas hacer!!!!
+2.- Reducers Como lo vas hascer !! (state = 0, action)
+3.- Stores : De donde Lo vas hacer!!
